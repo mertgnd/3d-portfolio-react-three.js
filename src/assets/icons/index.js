@@ -26,8 +26,48 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import dotnet from './dotnet.png'
+import csharp from './csharp.png'
+import python from './python.png'
+import django from './django.png'
+import wordpress from './wordpress.png'
+import entityframework from './entityframeworkcore.png'
+import visualstudio from './visualstudio.png'
+import microsoftsql from './microsoftsql.png'
+import dapperorm from './dapperorm.png'
+import dotnetmvc from './dotnetmvc.png'
+import docker from './docker.png'
+import visualstudiocode from './visualstudiocode.png'
+import devops from './devops.png'
+import azure from './azure.png'
+import postman from './postman.png'
+import mysql from './mysql.png'
+import gitlab from './gitlab.png'
+import swagger from './swagger.png'
+import pycharm from './pycharm.png'
+import seo from './seo.png'
 
 export {
+    dotnet,
+    csharp,
+    python,
+    django,
+    wordpress,
+    entityframework,
+    visualstudio,
+    microsoftsql,
+    dapperorm,
+    dotnetmvc,
+    docker,
+    visualstudiocode,
+    devops,
+    azure,
+    postman,
+    mysql,
+    gitlab,
+    swagger,
+    pycharm,
+    seo,
     css,
     express,
     git,

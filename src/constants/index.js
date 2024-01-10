@@ -2,7 +2,27 @@ import { meta, shopify, starbucks, tesla, logo } from "../assets/images";
 import {
     car,
     contact,
+    csharp,
+    python,
+    django,
+    wordpress,
+    entityframework,
+    visualstudio,
+    microsoftsql,
+    dapperorm,
+    dotnetmvc,
+    docker,
+    visualstudiocode,
+    devops,
+    azure,
+    postman,
+    mysql,
+    gitlab,
+    swagger,
+    pycharm,
+    seo,
     css,
+    dotnet,
     estate,
     express,
     git,
@@ -28,14 +48,54 @@ import {
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: dotnet,
+        name: ".Net",
+        type: "Backend",
+    },
+    {
+        imageUrl: csharp,
+        name: "C#",
+        type: "Backend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Python Django",
+        type: "Backend",
+    },
+    {
+        imageUrl: wordpress,
+        name: "Wordpress",
+        type: "Web Design",
+    },
+    {
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: nodejs,
+        name: "Node.js",
         type: "Backend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
+    {
+        imageUrl: dotnetmvc,
+        name: ".Net MVC",
+        type: "Backend"
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -53,44 +113,74 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: dapperorm,
+        name : "Dapper ORM",
+        type: "Database",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: docker,
+        name: "Docker",
+        type: "Version Control",
+    },
+    {
+        imageUrl: visualstudiocode,
+        name: "Visual Studio Code",
+        type: "IDE",
+    },
+    {
+        imageUrl: devops,
+        name: "DevOps",
+        type: "DevOps",
+    },
+    {
+        imageUrl: azure,
+        name: "Microsoft Azure",
+        type: "Team Management",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Application Programming Interface",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: gitlab,
+        name: "Gitlab",
+        type: "Git Repos Management",
+    },
+    {
+        imageUrl: swagger,
+        name: "Swagger",
+        type: "Application Programming Interface",
+    },
+    {
+        imageUrl: pycharm,
+        name: "PyCharm",
+        type: "IDE",
+    },
+    {
+        imageUrl: seo,
+        name: "SEO",
+        type: "seo",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
+        imageUrl: express,
+        name: "Express",
         type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
     },
     {
         imageUrl: sass,
@@ -106,7 +196,17 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: visualstudio,
+        name: "Visual Studio",
+        type: "IDE",
+    },
+    {
+        imageUrl: microsoftsql,
+        name: "Microsoft SQL",
+        type: "Database",
+    },
 ];
 
 export const experiences = [
