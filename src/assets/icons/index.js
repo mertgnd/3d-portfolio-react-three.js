@@ -31,7 +31,6 @@ import csharp from './csharp.png'
 import python from './python.png'
 import django from './django.png'
 import wordpress from './wordpress.png'
-import entityframework from './entityframeworkcore.png'
 import visualstudio from './visualstudio.png'
 import microsoftsql from './microsoftsql.png'
 import dapperorm from './dapperorm.png'
@@ -46,6 +45,16 @@ import gitlab from './gitlab.png'
 import swagger from './swagger.png'
 import pycharm from './pycharm.png'
 import seo from './seo.png'
+import sosyalgi from './sosyalgi.png'
+import gosb from './gosb.png'
+import midenas from './midenas.png'
+import mobileapp from './mobileapp.png'
+import rentacar from './rent-a-car.png'
+import fashion from './fashion.png'
+import student from './student.png'
+import cportfolio from './cportfolio.png'
+import restate from './estate.png'
+import code from './code.png'
 
 export {
     dotnet,
@@ -53,7 +62,6 @@ export {
     python,
     django,
     wordpress,
-    entityframework,
     visualstudio,
     microsoftsql,
     dapperorm,
@@ -95,5 +103,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    sosyalgi,
+    gosb,
+    midenas,
+    mobileapp,
+    rentacar,
+    fashion,
+    student,
+    cportfolio,
+    restate,
+    code
 }

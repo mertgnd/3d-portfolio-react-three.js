@@ -6,7 +6,6 @@ import {
     python,
     django,
     wordpress,
-    entityframework,
     visualstudio,
     microsoftsql,
     dapperorm,
@@ -43,7 +42,17 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    sosyalgi,
+    gosb,
+    midenas,
+    mobileapp,
+    rentacar,
+    fashion,
+    student,
+    cportfolio,
+    restate,
+    code
 } from "../assets/icons";
 
 export const skills = [
@@ -211,55 +220,42 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Pyhton Django Web Developer",
+        company_name: "Sosyalgi Agency",
+        icon: sosyalgi,
+        iconBg: "#fffdd0",
+        date: "Sep 2020 - Nov 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Working for clients projects with following tools and technologies: ",
+            "Python, Python Django Framework, HTML&CSS&JS, MSSQL Server, MySQL Server, Wordpress, SEO, Microsoft Azure, Visual Studio Code, MSSQL Configuration Manager.",
+            "We have made plenty of web sites by wordpress and full-stack e-commerce web projects with python django. We have made web designs by using HTML & CSS & JS.",
+            "sosyalgi.com.tr",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Web Developer & Designer",
+        company_name: "Gosb Teknopark",
+        icon: gosb,
+        iconBg: "#FF7F00",
+        date: "Nov 2022 - Feb 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Working for clients projects with following tools and technologies:",
+            "HTML&CSS&JS, Wordpress, SEO.",
+            "First of all, we created the company's own website (gosbteknopark.com). We designed and published our customers' websites according to their requests.",
+            "gosbteknopark.com",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: ".NET Software Developer",
+        company_name: "Midenas D.o.o",
+        icon: midenas,
+        iconBg: "#1A1D1E",
+        date: "Mar 2023 - Nov 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Working on different project with following tools and technologies:",
+            ".Net, .Net Core 6.0, .Net Framework 7, ASP.NET Core Web API, Entity Framework, NUnit SwaggerUI, Postman, Redux Dev Tools, Microsoft SQL Server, MS SQL Management Studio, MS SQL Configuration Manager, Visual Studio, Visual Studio Code.",
+            "The projects I worked on were guided by an agile methodology (SCRUM) using Azure DevOps/Git to plan, track, and manage the development cycle.",
+
         ],
     },
 ];
@@ -273,56 +269,73 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/mertgnd',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/mertgundogdu61/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: mobileapp,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Movie recommendation app',
+        description: [
+            "A mobile application that includes movie recommendations, movie ratings and filtering.",
+            " My task in the project was to create the interface to be displayed for users and to perform logic operations. At the end of the project, we achieved our goal and prepared a small-scale application that users can easily use."
+        ],
+        link: '#',
     },
     {
-        iconUrl: threads,
+        iconUrl: rentacar,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Rent a Car Desktop Application ',
+        description: [
+            "A Rent a Car System for Desktop Users. This project included management of users, cars, booking, and brunches. ",
+            " My task in the project was to establish logic on users and the car rental system and to prepare the designs of the pages where these operations would be performed."
+        ],
+        link: 'https://github.com/mertgnd/Rent-a-Car-Desktop-App-With-CSharp',
     },
     {
-        iconUrl: car,
+        iconUrl: fashion,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'ThePalmz E-Commerce Web Project',
+        description: [
+            "Our goal in this web project was CRUD operations for products, login-register and authorizations, 3 different user type and admin page for managemenet users, product, and page contents. In addition we added payment method by using iyzico payment modules. Our purpose was to create a web project that has all functions working and is manageable for the seller. ",
+        ],
+        link: 'https://github.com/mertgnd/ECommerce-Fashion-WebSite-with-Python-Django',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: student,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Student Management Web Application',
+        description: [
+            "We have developed a web project that includes making appointments with professors, contacting the department secretary, tracking grades, describing university news, accessing course notes and contents, uploading CVs, downloading and viewing uploaded CVs, creating a transcript request from the department, and internship and job-internship postings by professors. Our goal was the make every process faster for university department. In addition, for the user information on the site, we have listed how to transfer information to the user with chart.js and make some predictions for users with machine learning. ",
+        ],
+        link: 'https://github.com/mertgnd/Graduation-Project',
     },
     {
-        iconUrl: estate,
+        iconUrl: restate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Real-Estate Asp.net Core 8.0 + MVC Project',
+        description: 'Implemented the backend using ASP.NET Core 8.0, utilizing Web API to expose endpoints for data retrieval and manipulation. Developed the user interface using Bootstrap, CSS, HTML, and Razor Pages within the ASP.NET MVC framework to create a responsive and visually appealing frontend. Integrated SignalR to provide real-time updates, enabling users to receive instant notifications on property changes, messages, or other relevant events. Worked on database integration, utilizing Dapper to manage data models and interact with the database.',
+        link: 'https://github.com/mertgnd/RealEstate_Dapper_Api',
     },
     {
-        iconUrl: summiz,
+        iconUrl: cportfolio,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'Company Portfolio MVC Web Project',
+        description: 'My task in this project was to create an admin panel and enter and edit dynamic content for the sections, create admin user transactions, prepare the reporting section, prepare the page designs and create the architecture. The aim was to ensure the implementation of the SOLID structure, create partials accordingly and pay attention to clean code.',
+        link: 'https://github.com/mertgnd/Company_Portfolio_MVC_Project',
+    },
+    {
+        iconUrl: code,
+        theme: 'btn-back-orange',
+        name: 'LMS Platform - Midenas',
+        description: 'I worked on solution implementation of the API logic and systemic layering. I was tasked to creating endpoints and underlying logic for handling entities, implementing login authentication and roll-based authorization. Together with the team, I was tasked to demonstrate the development progress of the project on regular make-believe client meetings.',
+        link: 'https://github.com/mertgnd/LMS_Project',
+    },
 ];
